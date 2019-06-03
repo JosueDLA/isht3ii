@@ -17,7 +17,7 @@ public class main {
         String input9 = "55555";
          
         System.out.println("Probando: " + input0 + " - Resultado: " + evaluate(input0));
-        System.out.println("Probando: " + "null" + " - Resultado: " + evaluate(input1));
+        System.out.println("Probando: " + input1 + " - Resultado: " + evaluate(input1));
         System.out.println("Probando: " + input2 + " - Resultado: " + evaluate(input2));
         System.out.println("Probando: " + input3 + " - Resultado: " + evaluate(input3));
         System.out.println("Probando: " + input4 + " - Resultado: " + evaluate(input4));
