@@ -40,7 +40,7 @@ ADD isht3ii-1.0-SNAPSHOT-jar-with-dependencies.jar isht3ii.jar
 CMD ["java", "-jar", "isht3ii.jar"]
 ```
 
-## Dependency
+## Maven Dependency
 ```xml
 <build>
     <plugins>
