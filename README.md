@@ -17,3 +17,30 @@ Unit Testing with Palindromes
 - Single Character Input - Basic Output
 - Tabbed Input - Basic Output
 - Large Input - Basic Output
+
+## Docker
+### Docker Containers
+* josuedla/isht3ii
+
+### Download Docker Image
+```sh
+> sudo docker pull josuedla/isht3ii
+```
+
+### Run Docker Image 
+```sh
+> sudo docker run josuedla/isht3ii
+```
+
+### Dockerfiles
+#### Estudiantes
+```sh
+FROM openjdk:8-jre-alpine
+ADD isht3ii-1.0-SNAPSHOT-jar-with-dependencies.jar isht3ii.jar
+CMD ["java", "-jar", "isht3ii.jar"]
+```
+
+## Dependency
+```xml
+
+```
